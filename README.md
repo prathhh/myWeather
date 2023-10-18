@@ -1,2 +1,4 @@
 # myWeather
- JavaScript Weather App
+A JavaScript Weather App
+
+
