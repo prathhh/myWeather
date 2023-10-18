@@ -18,6 +18,28 @@
     <script src="./js/script.js"></script>
   </head>
   <body>
-    <h1><i class="bi bi-cloud-drizzle-fill"></i>Weather App</h1>
+    <!-- Card -->
+    <div class="card mt-5 mx-auto" style="width: 18rem">
+      <!-- Card Header  -->
+      <div class="card-header">
+        <h1><i class="bi bi-cloud-drizzle-fill"></i>Weather App</h1>
+      </div>
+      <!-- / Card Header -->
+
+      <!-- Card Body -->
+      <div class="card-body">
+        <h2 class="card-title" id="currentLocation">Current Location</h2>
+        <p class="card-text" id="temp">Temperature</p>
+        <p class="card-text" id="description">Description</p>
+      </div>
+      <!-- / Card Body -->
+    </div>
+    <!-- / Card -->
+
+    <!-- Alert -->
+    <div class="alert alert-warning" role="alert" id="alert">
+      Errors will appear here...
+    </div>
+    <!-- / Alert -->
   </body>
 </html>
